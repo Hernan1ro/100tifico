@@ -1,7 +1,3 @@
-console.log("Hello webpack!");
-
-const fancyFunc = () => {
-  return [1, 2];
-};
-
-const [a, b] = fancyFunc();
+import router from "./routes/index";
+window.addEventListener("load", router);
+window.addEventListener("hashchange", router);
